@@ -5,9 +5,9 @@ let b : string = "TS 011" //explicity define type
 console.log(a)
 console.log(b)
 
-const c = null //type interfance
+const c:null = null //explicit typing
 console.log(c)
-let d = undefined
+let d: undefined = undefined
 console.log(d)
 
 
