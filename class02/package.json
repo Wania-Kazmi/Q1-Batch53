@@ -1,0 +1,16 @@
+{
+  "name": "class02",
+  "version": "1.0.0",
+  "description": "https://wania-kazmi.notion.site/Q1-Batch-53-1d8b23d02262441290d46a568deabaf2?pvs=25",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0"
+  }
+}
