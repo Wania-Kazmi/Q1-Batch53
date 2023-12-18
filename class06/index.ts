@@ -38,8 +38,8 @@ let myType = {id:22, name:"wania"} //ok
 
 myType = {id: 24, name: "Muzhar"}
 //Case 2a
-myType = {id: 23, name_person:"wania"} //Error: missing property or rename
-myType = {id: 23, admin:"wania"} //Error: missing property or rename
+// myType = {id: 23, name_person:"wania"} //Error: missing property or rename
+// myType = {id: 23, admin:"wania"} //Error: missing property or rename
 
 //Case 2b
 let x : {id:number, [a:string]:any }
@@ -47,8 +47,9 @@ let x : {id:number, [a:string]:any }
 x = {id:2, name:"wania"}
 x = {id:2, name_person:"wania"} //ok
 
+
 //Case 3
-myType = {id:2, name:"wania",age:60} //Error, excess property 
+// myType = {id:2, name:"wania",age:60} //Error, excess property 
 // myType = x
 
 
@@ -61,7 +62,7 @@ myType = myType2 //ok
 
 //case 2a:
 let x1 = {id:22, new_name:"Wania" }
-myType2 = x1 //Error - missing or rename property
+// myType2 = x1 //Error - missing or rename property
 
 //case 2b:
 let x2 : {id:number, [w:string]:any} 
@@ -72,7 +73,7 @@ x2 = y1 //ok
 //Case 3
 let y2 = {id:44, admin_name:"Wania", age:60}
 y1 = y2 //stale object
-y2 =y1
+// y2 =y1
 
 
-
+//Fresh Objects
