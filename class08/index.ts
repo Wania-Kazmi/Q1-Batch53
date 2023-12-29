@@ -32,11 +32,18 @@ let myAdd3: (baseValue:number, increment:number)=>number = 	function(x: number, 
 let myAdd4 = (a : number, b : number) => a + b;
 //output will be: var myAdd4 = function(a : number, b : number) {return a + b};
 
+
+
+//FIRST CLASS FUNCTION
+//The ability of function to be used as a value and can be passed this as an argument to another function and can be returned from the function is called as first class function.
+//First class function = first class citizens (refer by this in some books and articles)
+
 type GreetFunction = (a: string) => void;
 function greeter1(fn: GreetFunction) {
 	//....
 }
 
+//Example of first class function
 function greetEnglish(name: string): void {
     console.log(`Hello, ${name}!`);
 }
