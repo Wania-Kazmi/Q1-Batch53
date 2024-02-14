@@ -17,7 +17,7 @@
 abstract class Shape {
     // Define an abstract method called area. It doesn't have an implementation here.
     abstract area(): number;
-
+    
     // A concrete method that's fully defined and can be used by subclasses
     display(): void {
         console.log(`The area is: ${this.area()}`);
