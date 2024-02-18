@@ -30,3 +30,6 @@ numberContainer.add(42);
 numberContainer.add(123);
 
 // Now we can use these containers to store and manage different types of data!
+
+// React js Example:
+// const [data, setData] = useState<string>();

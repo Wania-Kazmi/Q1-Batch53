@@ -1,5 +1,8 @@
 ///<reference path="node_modules\reflect-metadata\reflect-metadata.d.ts"/>
 
+// Triple-slash directives. These directives provide additional information to the TypeScript compiler about how to process your code.
+
+
 // This line refers to a TypeScript definition file (d.ts) that provides additional type information.
 // It helps TypeScript understand certain libraries or modules.
 
@@ -9,7 +12,7 @@
 import "reflect-metadata";
 
 // Now let's define a decorator called 'logType'.
-// A decorator is like a special sticker we can put on things in our code.
+// A decorator is like a special sticker we can put on things in our code. (# expalined in previous class)
 
 function logType(target: any, key: any) {
     // The 'target' here refers to the class (or object) containing the property.

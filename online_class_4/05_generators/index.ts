@@ -32,5 +32,9 @@ console.log(next2.value); // Output: "secondValue"
 const next3 = generator.next();
 console.log(next3.value); // Output: "thirdValue"
 
+const next4 = generator.next();
+console.log(next4); // Output: { value: undefined, done: true }
+console.log(next4.value); // Output: undefined
+
 
 // Feel free to experiment with the generator and observe how it behaves!
